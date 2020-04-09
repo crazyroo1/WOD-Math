@@ -127,10 +127,6 @@ class WODDetailsViewController: UIViewController {
         performSegue(withIdentifier: "WODResultsCalculatorView", sender: self)
     }
     
-    @IBAction func backButtonPressed(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let myResultsVC = segue.destination as! MyResultsViewController
         myResultsVC.movementsPerRound = Int(movementStepper.value)

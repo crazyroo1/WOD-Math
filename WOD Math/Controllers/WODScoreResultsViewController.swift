@@ -18,14 +18,6 @@ class WODScoreResultsViewController: UIViewController {
         additionalRepsCompletedLabel.text = "\(additionalRepsCompleted)"
         finalScoreLabel.text = "\(Int(finalScore))"
     }
-    
-    @IBAction func backButtonPressed(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
-
-    @IBAction func resetButtonPressed(_ sender: UIButton) {
-    }
 }
 
 

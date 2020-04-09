@@ -108,11 +108,7 @@ class MyResultsViewController: UIViewController {
         totalScore = (totalRepsPerscribed * fullRoundsCompleted) + totalAdditionalReps
         performSegue(withIdentifier: "ScoreResultsView", sender: self)
     }
-    
-    @IBAction func backButtonPressed(_ sender: UIButton) {
-        self.dismiss(animated: true, completion: nil)
-    }
-    
+
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
         let myScoreVC = segue.destination as! WODScoreResultsViewController
         myScoreVC.fullRoundsCompleted = fullRoundsCompleted
