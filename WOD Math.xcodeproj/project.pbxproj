@@ -13,6 +13,7 @@
 		7226BD92243BBCC300228F65 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7226BD90243BBCC300228F65 /* Main.storyboard */; };
 		7226BD94243BBCC600228F65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7226BD93243BBCC600228F65 /* Assets.xcassets */; };
 		7226BD97243BBCC600228F65 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7226BD95243BBCC600228F65 /* LaunchScreen.storyboard */; };
+		723EA6C9243F9E5300BF734D /* Confetti.sks in Resources */ = {isa = PBXBuildFile; fileRef = 723EA6C8243F9E5300BF734D /* Confetti.sks */; };
 		72744D2B243C2D4400705F5B /* WODDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72744D2A243C2D4400705F5B /* WODDetailsViewController.swift */; };
 		7280DBA9243E08C50015CAF2 /* MyResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280DBA8243E08C50015CAF2 /* MyResultsViewController.swift */; };
 		729F3248243BDAB100BFBDCE /* WODScoreResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F3247243BDAB100BFBDCE /* WODScoreResultsViewController.swift */; };
@@ -27,6 +28,7 @@
 		7226BD93243BBCC600228F65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7226BD96243BBCC600228F65 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7226BD98243BBCC600228F65 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		723EA6C8243F9E5300BF734D /* Confetti.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; name = Confetti.sks; path = "WOD Math/Confetti.sks"; sourceTree = SOURCE_ROOT; };
 		72744D2A243C2D4400705F5B /* WODDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WODDetailsViewController.swift; sourceTree = "<group>"; };
 		7280DBA8243E08C50015CAF2 /* MyResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyResultsViewController.swift; sourceTree = "<group>"; };
 		729F3247243BDAB100BFBDCE /* WODScoreResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WODScoreResultsViewController.swift; sourceTree = "<group>"; };
@@ -64,6 +66,7 @@
 			children = (
 				7226BD8A243BBCC300228F65 /* AppDelegate.swift */,
 				7226BD8C243BBCC300228F65 /* SceneDelegate.swift */,
+				723EA6C8243F9E5300BF734D /* Confetti.sks */,
 				7226BDA0243BD41F00228F65 /* Controllers */,
 				7226BD90243BBCC300228F65 /* Main.storyboard */,
 				7226BD93243BBCC600228F65 /* Assets.xcassets */,
@@ -145,6 +148,7 @@
 				7226BD97243BBCC600228F65 /* LaunchScreen.storyboard in Resources */,
 				7226BD94243BBCC600228F65 /* Assets.xcassets in Resources */,
 				7226BD92243BBCC300228F65 /* Main.storyboard in Resources */,
+				723EA6C9243F9E5300BF734D /* Confetti.sks in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
