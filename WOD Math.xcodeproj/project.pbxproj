@@ -17,6 +17,10 @@
 		72744D2B243C2D4400705F5B /* WODDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 72744D2A243C2D4400705F5B /* WODDetailsViewController.swift */; };
 		7280DBA9243E08C50015CAF2 /* MyResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7280DBA8243E08C50015CAF2 /* MyResultsViewController.swift */; };
 		729F3248243BDAB100BFBDCE /* WODScoreResultsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 729F3247243BDAB100BFBDCE /* WODScoreResultsViewController.swift */; };
+		976A64CF2441413F00ACC363 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A64CE2441413F00ACC363 /* HomeView.swift */; };
+		976A64D12441437200ACC363 /* WODInputDetailsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A64D02441437200ACC363 /* WODInputDetailsView.swift */; };
+		976A64D42441438C00ACC363 /* WODInputResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A64D32441438C00ACC363 /* WODInputResultsView.swift */; };
+		976A64D62441439900ACC363 /* WODScoreView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 976A64D52441439900ACC363 /* WODScoreView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +36,10 @@
 		72744D2A243C2D4400705F5B /* WODDetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WODDetailsViewController.swift; sourceTree = "<group>"; };
 		7280DBA8243E08C50015CAF2 /* MyResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyResultsViewController.swift; sourceTree = "<group>"; };
 		729F3247243BDAB100BFBDCE /* WODScoreResultsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WODScoreResultsViewController.swift; sourceTree = "<group>"; };
+		976A64CE2441413F00ACC363 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		976A64D02441437200ACC363 /* WODInputDetailsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WODInputDetailsView.swift; sourceTree = "<group>"; };
+		976A64D32441438C00ACC363 /* WODInputResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WODInputResultsView.swift; sourceTree = "<group>"; };
+		976A64D52441439900ACC363 /* WODScoreView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WODScoreView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +75,7 @@
 				7226BD8A243BBCC300228F65 /* AppDelegate.swift */,
 				7226BD8C243BBCC300228F65 /* SceneDelegate.swift */,
 				723EA6C8243F9E5300BF734D /* Confetti.sks */,
+				976A64CD2441412600ACC363 /* Views */,
 				7226BDA0243BD41F00228F65 /* Controllers */,
 				7226BD90243BBCC300228F65 /* Main.storyboard */,
 				7226BD93243BBCC600228F65 /* Assets.xcassets */,
@@ -85,6 +94,25 @@
 				729F3247243BDAB100BFBDCE /* WODScoreResultsViewController.swift */,
 			);
 			path = Controllers;
+			sourceTree = "<group>";
+		};
+		976A64CD2441412600ACC363 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				976A64CE2441413F00ACC363 /* HomeView.swift */,
+				976A64D22441437800ACC363 /* WOD Score Calculator */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		976A64D22441437800ACC363 /* WOD Score Calculator */ = {
+			isa = PBXGroup;
+			children = (
+				976A64D02441437200ACC363 /* WODInputDetailsView.swift */,
+				976A64D32441438C00ACC363 /* WODInputResultsView.swift */,
+				976A64D52441439900ACC363 /* WODScoreView.swift */,
+			);
+			path = "WOD Score Calculator";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -160,11 +188,15 @@
 			buildActionMask = 2147483647;
 			files = (
 				729F3248243BDAB100BFBDCE /* WODScoreResultsViewController.swift in Sources */,
+				976A64CF2441413F00ACC363 /* HomeView.swift in Sources */,
 				72744D2B243C2D4400705F5B /* WODDetailsViewController.swift in Sources */,
 				7226BD8F243BBCC300228F65 /* ViewController.swift in Sources */,
 				7226BD8B243BBCC300228F65 /* AppDelegate.swift in Sources */,
 				7226BD8D243BBCC300228F65 /* SceneDelegate.swift in Sources */,
 				7280DBA9243E08C50015CAF2 /* MyResultsViewController.swift in Sources */,
+				976A64D12441437200ACC363 /* WODInputDetailsView.swift in Sources */,
+				976A64D62441439900ACC363 /* WODScoreView.swift in Sources */,
+				976A64D42441438C00ACC363 /* WODInputResultsView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
